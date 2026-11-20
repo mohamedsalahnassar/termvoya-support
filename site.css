@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light dark;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+  color: #232431;
+  background: #f6f6f6;
+}
+
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.25rem, 8vw, 3.4rem);
+  letter-spacing: -0.04em;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+p { line-height: 1.65; }
+a { color: #53448d; }
+
+@media (prefers-color-scheme: dark) {
+  :root { color: #faf8ff; background: #232431; }
+  a { color: #d5c9ff; }
+}
